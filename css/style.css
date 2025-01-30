@@ -4,3 +4,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: var(--color-8);
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 60px;
+padding-top: 40px;
+padding-right: 60px;
+}
+
+.header_logo{
+
+}
+
+.header_logo img{
+
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 54px;
+
+}
+
+.header_menu li{
+list-style: none;
+
+}
+
+.header_menu li a{
+font-family: "Poppins-Semibold";
+color: var(--color-1);
+font-size: 24px;
+text-decoration: none;
+display: flex;
+}
+
+.header_menu li a img{
+
+}
+
+.header_menu_exp{
+
+}
+
+.header_menu_exp img{
+
+}
