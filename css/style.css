@@ -6,14 +6,14 @@
 }
 
 body{
-    background-color: var(--color-8);
+    background-image: url(/storage/img/background.png);
 }
 header{
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding-left: 60px;
-padding-top: 40px;
+padding-top: 60px;
 padding-right: 60px;
 }
 
@@ -55,5 +55,114 @@ display: flex;
 }
 
 .header_menu_exp img{
+
+}
+
+main{
+display: flex;
+padding-top: 45px;
+padding-left: 75px;
+padding-right: 75px;
+
+}
+
+.section_container{
+display: flex;
+justify-content: space-between;
+
+}
+
+.article_jumping{
+display: flex;
+flex-direction: column;
+width: 680px;
+}
+
+.article_jumping h1{
+color: var(--color-1);
+font-family: "Poppins-SemiBold";
+font-size: 120px;
+line-height: 100px;
+
+}
+
+.article_jumping p{
+color: hsla(0, 0%, 100%, 0.750);
+font-family: "Poppins-Medium";
+font-size: 24px;
+padding-top: 26px;
+
+}
+
+.div_buttoms{
+display: flex;
+gap: 38px;
+margin-top: 26px;
+}
+
+.div_buttoms a{
+width: 264px;
+height: 86px;
+background: transparent;
+border-radius: 14px;
+outline: 1px solid var(--color-1);
+font-family: "Poppins-Light" ;
+text-align: center;
+font-size: 32px;
+text-decoration: none;
+color: var(--color-1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.div_buttoms:hover a:hover{
+backdrop-filter: blur(24px);
+outline: none;
+}
+
+.article_review{
+background: red;
+padding: 20px;
+}
+
+.div_review_container{
+background: blue;
+padding: 20px;
+}
+
+.div_review_cards{
+background: green;
+padding: 20px;
+}
+
+.div_review_profile{
+background: violet;
+padding: 20px;
+}
+
+.div_review_profile img{
+background: orange;
+}
+
+.div_review_profile p{
+
+}
+
+.div_review_rating{
+background: yellow;
+padding: 20px;
+
+}
+
+.div_review_rating h3{
+
+}
+
+.div_review_star{
+background: palegreen;
+}
+
+.div_review_star img{
 
 }
