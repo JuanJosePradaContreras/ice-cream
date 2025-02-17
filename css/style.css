@@ -69,6 +69,7 @@ padding-right: 75px;
 .section_container{
 display: flex;
 justify-content: space-between;
+gap: 500px;
 
 }
 
@@ -81,8 +82,8 @@ width: 680px;
 .article_jumping h1{
 color: var(--color-1);
 font-family: "Poppins-SemiBold";
-font-size: 120px;
-line-height: 100px;
+font-size: 100px;
+line-height: 90px;
 
 }
 
@@ -123,40 +124,45 @@ outline: none;
 
 .article_review{
 background: red;
-padding: 20px;
 }
 
 .div_review_container{
-background: blue;
-padding: 20px;
+background-color: var(--color-1);
+border-radius: 18px;
+width: 331px;
+height: 288px;
+
 }
 
 .div_review_cards{
-background: green;
-padding: 20px;
+background-color:var(--color-1);
+width:331px;
+height:202px;
+border-radius: 18px;
 }
 
 .div_review_profile{
-background: violet;
-padding: 20px;
 }
 
 .div_review_profile img{
-background: orange;
+width: 58px;
+height: 58px;
 }
 
 .div_review_profile p{
+font-family: "Poppins-Medium";
+font-size: 18px;
 
 }
 
 .div_review_rating{
-background: yellow;
-padding: 20px;
 
 }
 
 .div_review_rating h3{
-
+color: var(--color-3);
+font-family: "Poppins-Medium";
+font-size: 28px;
 }
 
 .div_review_star{
@@ -164,5 +170,6 @@ background: palegreen;
 }
 
 .div_review_star img{
-
+width: 21px;
+height: 21px;
 }
